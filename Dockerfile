@@ -8,5 +8,6 @@ COPY . /usr/share/nginx/html/
 EXPOSE 443
 
 
-RUN apt-get update && apt-get upgrade
+RUN apk update && apk upgrade
+
 

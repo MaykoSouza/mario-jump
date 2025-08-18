@@ -8,4 +8,5 @@ COPY . /usr/share/nginx/html/
 EXPOSE 443
 
 
-RUN apt-get update && apt-get install 
+RUN apt-get update && apt-get upgrade
+
